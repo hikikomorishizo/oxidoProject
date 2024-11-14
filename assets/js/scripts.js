@@ -1,3 +1,5 @@
+const apiKey = 'CHATGPT-3.5-turbo-APIKEY';
+
 document.getElementById('processArticleButton').addEventListener('click', async function() {
     const button = document.getElementById('processArticleButton');
     
@@ -32,7 +34,7 @@ document.getElementById('processArticleButton').addEventListener('click', async 
         }, {
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': `Bearer CHATGPT-3.5-turbo-APIKEY` 
+                'Authorization': `Bearer ${apiKey}` 
             }
         });
 
@@ -100,7 +102,7 @@ document.getElementById('generateTemplateButton').addEventListener('click', asyn
         }, {
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': `Bearer CHATGPT-3.5-turbo-APIKEY`
+                'Authorization': `Bearer ${apiKey}`
             }
         });
 
