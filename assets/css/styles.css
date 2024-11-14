@@ -29,7 +29,7 @@ header h1 {
     width: 100%;
     padding: 0 25px;
 }
-.link-button {
+.link-button, button {
     background-color: #4CAF50;
     color: white;
     padding: 15px 25px;
@@ -45,7 +45,7 @@ header h1 {
     box-sizing: border-box;
     cursor: pointer;
 }
-.link-button:hover {
+.link-button:hover, button:hover  {
     background-color: #45a049;
 }
 footer {
@@ -56,4 +56,13 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+}
+pre {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word; 
+    overflow-x: auto; 
+    text-align: left;
 }

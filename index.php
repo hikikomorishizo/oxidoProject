@@ -19,8 +19,9 @@
     <p><button class="link-button" id="processArticleButton">Przetwarzanie Artykułu</button></p>
 
     <p><button class="link-button" id="generateTemplateButton">Generuj HTML Szablon</button></p>
+    <p><a href="prev-szablon.php" class="link-button">Podgląd Szablon</a></p>
     <p><a href="podglad.html" class="link-button">Podgląd Artykułu</a></p>
-    <p><a href="https://github.com/hikikomorishizo/oxido_project" class="link-button" target="_blank">Repozytorium na GitHubie</a></p>
+    <p><a href="https://github.com/hikikomorishizo/oxidoProject" class="link-button" target="_blank">Repozytorium na GitHubie</a></p>
 </div>
 
 <footer>
