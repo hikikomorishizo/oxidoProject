@@ -11,7 +11,12 @@
 <body>
     <div class="container">
         <h1>Podgląd kodu</h1>
-        <pre id="codePreview"></pre>
+        <p><a href="/" class="link-button">Powrót</a></p>
+
+        <h2>Szablon</h2>
+        <pre id="codePreviewSzablon"></pre>
+        <h2>Artykuł</h2>
+        <pre id="codePreviewArt"></pre>
     </div>
 
 

@@ -15,11 +15,12 @@
 </header>
 
 <div class="container">
-    <p><a href="assets/article.txt" class="link-button">Pobierz Artykuł (TXT)</a></p>
+    <p><a href="assets/article.txt" class="link-button">Artykuł (TXT)</a></p>
     <p><button class="link-button" id="processArticleButton">Przetwarzanie Artykułu</button></p>
 
     <p><button class="link-button" id="generateTemplateButton">Generuj HTML Szablon</button></p>
-    <p><a href="prev-szablon.php" class="link-button">Podgląd Szablon</a></p>
+    <p><a href="prev-szablon.php" class="link-button">Podgląd Szablon + Artykuł</a></p>
+    <p><a href="generate_preview.php" class="link-button">Generowanie Strony Artykułu</a></p>
     <p><a href="podglad.html" class="link-button">Podgląd Artykułu</a></p>
     <p><a href="https://github.com/hikikomorishizo/oxidoProject" class="link-button" target="_blank">Repozytorium na GitHubie</a></p>
 </div>
